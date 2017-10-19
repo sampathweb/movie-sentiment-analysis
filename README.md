@@ -5,7 +5,7 @@ A tutorial and kaggle InClass competition to help participants learn and also pr
 
 * **SF Project Night**: https://www.meetup.com/sfpython/events/234956048/
 
-* **Competition**: https://www.kaggle.com/c/movie-sentiment-analysis
+* **Competition**: https://www.kaggle.com/c/movie-sentiment-analysis (http://bit.ly/2grjJLc)
 
 * **Date**: Oct'18th 2017
 
