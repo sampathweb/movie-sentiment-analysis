@@ -20,7 +20,7 @@ This is a dataset for binary sentiment classification containing substantially m
 
 Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). [Learning Word Vectors for Sentiment Analysis](http://ai.stanford.edu/~amaas/papers/wvSent_acl2011.pdf). The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011).
 
-* Benchmark Accuracy for the dataset in 2011 is 88.90%.  Can we get close to that or even beat that?
+* Benchmark Accuracy for the dataset in 2011 is **88.90%**.  Can we get close to that or even beat that?
 
 
 ### Notebooks:
@@ -29,32 +29,27 @@ Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Chr
 Steps I took to build the dataset for Kaggle Competition
 
 
-* **01-count-classifier.ipynb**:
+* **01-load-vectorize-count.ipynb**:
     * Load Data, vectorize reviews to numbers
     * Build a basic model based on counting
     * Evaluate the Model
     * Make a first Kaggle Submission
     * Other forms of Vectorizations - TF-IDF
 
+* **02-logisitc-regression-intro.ipynb**:
+    * Logistic Regression Introduction
+    * Model Pipeline Process
 
-* **02-sklearn-models-model.ipynb**:
-    * Build a more roubust model using - Logistic Regression, Trees, Naive Bayes are more..
-    * Build an Emsemble Model
+* **03-sklearn-sentiment-classifier.ipynb**:
+    * Using Scikit-Learn Logisitc Regression build a Sentiment Classfier
+    * Any improvements over what we already have?
     * Make a updated Submission
 
-
-* **03-neural-nets-model.ipynb**:
-    * Using Scikit-Learn Feed Forward Neural Nets
-    * Any improvements over what we already have?
-
-* **04-deep-neural-nets.ipynb**:
-    * Using Keras or TensorFlow or PyTorch
-    * Sequence Embeddings to preserve order of words
-    * Any improvement over traditional methods?
-
-* **05-compete.ipynb**:
+* **04-your-turn-build-predict-iterate.ipynb**:
     * Using any or all of the techniques try to beat the competition :-)
 
+* **05-ensemble-models.ipynb**:
+    * Average Results from multiple Models
 
 ### Next steps:
 
